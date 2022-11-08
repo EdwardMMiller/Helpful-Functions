@@ -27,3 +27,6 @@ in this function are the same exact columns that were used in training the model
 there will be incorrect prediction probabilities due to the model not being fit on the training data. 
 If there are missing values or other issues, those
 can be added as an extra step in the previous function, or addressed before using this function.
+
+ALSO - The code for these two functions includes two small dummy test dataframes solely for quick debugging of the functions. These are certainly
+not large enough for any meaningful model predictions, they only serve to ensure that the formatting and functionalty work, and nothing more.
